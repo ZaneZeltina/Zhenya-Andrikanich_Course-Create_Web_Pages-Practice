@@ -1,0 +1,111 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* Connect Fonts with Google Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+/* Connect Fonts use local files */
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+    url('../fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ------------- */
+
+body {
+	font-size: 21px;
+	background-color:#afafaf;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.header__container,
+.footer__container {
+  max-width: 1200px;
+	margin: 30px auto 50px;
+}
+
+.header__block,
+.footer__block {
+  background-color:#737373;
+  box-shadow: 5px 5px 10px 5px #242424, inset 5px 5px 10px 3px #6495ed;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.footer__block {
+	padding: 20px 20px 0px;
+}
+
+.header__title {
+	font-family: 'Proxima Nova Lt';
+	text-align: center;
+	color: #ff4444;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 42px;
+	text-shadow: 3px 3px 6px #fff;
+	margin: 10px auto 35px;
+}
+
+.menu,
+.footer-menu {
+	display: block;
+}
+
+.menu__list,
+.footer-menu__list {
+	display: block;
+	text-align: center;
+}
+
+.list__item,
+.footer-menu__list-item {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Proxima Nova Lt';
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 10px 10px;
+	padding: 5px;
+}
+
+.list__link,
+.footer-menu__list-link {
+	display: inline-block;
+	color: #ff4444;
+	text-shadow: 2px 2px 5px #fff;
+	box-shadow: 2px 2px 4px 1px #fff;
+	text-decoration: underline;
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+.list__link:hover,
+.footer-menu__list-link:hover {
+	color:#6e95de;
+	text-decoration: underline;
+}
+
+.footer__img{
+	margin: -50px 10px 20px;
+	width: 60px;
+}

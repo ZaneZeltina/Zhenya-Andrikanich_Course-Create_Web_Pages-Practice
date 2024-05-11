@@ -4,24 +4,23 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600&display=swap");
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
 
 /* Connect Fonts use local files */
 
 @font-face {
-    font-family: 'Proxima Nova Rg';
-    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
-    url('../fonts/ProximaNova-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue.woff2") format("woff2"), 
+		url("../fonts/HelveticaNeue.woff") format("woff");
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova Lt';
-    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
-    url('../fonts/ProximaNova-Semibold.woff') format('woff');
-    font-weight: 600;
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue-Black.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue-Black.woff") format("woff");
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -29,10 +28,10 @@
 /* ------------- */
 
 body {
-	font-size: 21px;
-	background-color:#afafaf;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
+	font-size: 18px;
+	background-color: rgb(213, 211, 211);
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
 	line-height: 1.2;
 }
 
@@ -44,8 +43,8 @@ body {
 
 .header__block,
 .footer__block {
-  background-color:#737373;
-  box-shadow: 5px 5px 10px 5px #242424, inset 5px 5px 10px 3px #6495ed;
+  background-color:#d8bcbc;
+  box-shadow: 5px 5px 10px 5px #404040, inset 5px 5px 10px 3px #fff;
   border-radius: 40px;
   padding: 20px;
 }
@@ -55,10 +54,10 @@ body {
 }
 
 .header__title {
-	font-family: 'Proxima Nova Lt';
+	font-family: "Helvetica Neue";
 	text-align: center;
-	color: #ff4444;
-	font-weight: 600;
+	color: #7da5dd;
+	font-weight: 900;
 	text-transform: uppercase;
 	text-decoration: underline;
 	font-size: 42px;
@@ -81,8 +80,8 @@ body {
 .footer-menu__list-item {
 	display: inline-block;
 	font-size: 20px;
-	font-family: 'Proxima Nova Lt';
-	font-weight: 600;
+	font-family: "Helvetica Neue";
+	font-weight: 400;
 	text-transform: uppercase;
 	margin: 10px 10px;
 	padding: 5px;
@@ -91,9 +90,9 @@ body {
 .list__link,
 .footer-menu__list-link {
 	display: inline-block;
-	color: #ff4444;
+	color: #7da5dd;
 	text-shadow: 2px 2px 5px #fff;
-	box-shadow: 2px 2px 4px 1px #fff;
+	box-shadow: 2px 2px 4px 1px #404040;
 	text-decoration: underline;
 	padding: 5px 10px;
 	border-radius: 20px;
@@ -101,11 +100,11 @@ body {
 
 .list__link:hover,
 .footer-menu__list-link:hover {
-	color:#6e95de;
+	color:rgb(236, 129, 154);
 	text-decoration: underline;
 }
 
 .footer__img{
-	margin: -50px 10px 20px;
+	margin: -50px 10px 30px;
 	width: 60px;
 }

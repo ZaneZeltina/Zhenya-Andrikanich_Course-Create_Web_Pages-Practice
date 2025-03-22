@@ -127,13 +127,9 @@ body {
 	width: 65px;
 }
 
-.about {
-  background: url("../img/task_1/about-bg.png") 100% 0% no-repeat;
-}
-
 .about__wrapper {
   padding: 100px 87px 0px;
-  background-color: #fff;
+  background: #fff url("../img/task_1/about-bg.png") 100% 0% no-repeat;
 }
 
 .about__wrapper-bg {
@@ -321,5 +317,107 @@ body {
 
 .services__button-img {
   margin: 3px 0px 0px 20px;
+}
+
+#task-4 {
+  background-color: #ececec;
+}
+
+.faq {
+  font-family: "Poppins", sans-serif;
+  padding: 19px 0px 1px 0px;
+  color: #000;
+}
+
+.faq__row .faq-small__title ~ .faq__text:last-child {
+  margin: 0px 0px 25px 0px;
+}
+
+.faq__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0px 0px 26px 0px;
+}
+
+.faq__subtitle-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0px 0px 55px 0px;
+}
+
+.faq-small__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+  margin: 0px 0px 25px 0px;
+}
+
+.faq__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.62;
+  margin: 0px 0px 5px 0px;
+}
+
+.faq__text_margin {
+  margin: 0px 0px 25px 0px;
+}
+
+.faq__list {
+  padding: 0px 0px 0px 22px;
+}
+.faq__list-item:last-child {
+  margin: 0px 0px 25px 0px;
+}
+
+.faq__list-item {
+  list-style:lower-alpha;
+}
+
+.faq__list-item::marker {
+  font-size: 16px;
+}
+
+.computers {
+  background-color: #fff;
+}
+
+.computers__img {
+  max-width: 870px;
+  display: block;
+  padding: 50px 250px 50px 0px;
+}
+
+.about-us {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  color:#000;
+}
+
+.about-us__wrapper {
+  max-width: 870px;
+  padding: 0px 0px 0px 47px;;
+}
+
+.about-us__img {
+  padding: 60px 0px 0px 0px;
+}
+
+.about-us__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.32;
+  max-width: 465px;
+}
+
+.about-us__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.44;
+  max-width: 436px;
+  padding: 0px 0px 50px 0px;
 }
 
